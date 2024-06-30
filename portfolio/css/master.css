@@ -1,0 +1,195 @@
+body {
+  background-color: #70a8eb;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header > img {
+  width: 1500px;
+  height: 500px;
+}
+header > h1 {
+  color: white;
+  font-weight: medium;
+  font-size: 3rem;
+}
+header > h2 {
+  color: #3203b9;
+  text-shadow: 2px 2px 7px #3203b9;
+}
+
+header > p {
+  margin-left: 30rem;
+  margin-right: 30rem;
+  text-align: center;
+  font-size: 1.4rem;
+  color: #fefefe;
+}
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #3203b9;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 0;
+}
+
+.image-with-captions {
+  flex: 1;
+  text-align: center;
+}
+
+.image-with-captions img {
+  width: 400px;
+  height: 500px;
+}
+.image {
+  margin: 20px;
+}
+.image-with-captions h3 {
+  font-size: 2rem;
+}
+.image-with-captions p {
+  font-size: 1.4rem;
+}
+.image-with-captions button {
+  font-size: 1.4rem;
+  background-color: #3203b9;
+  margin-bottom: 8px;
+  border-radius: 10px;
+}
+.image-with-captions :hover {
+  border: 2px solid black;
+}
+
+.poet-game {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.poet-game label {
+  font-size: 2rem;
+}
+.poet-game input {
+  font-size: 17px;
+}
+.label-input {
+  text-align: center;
+}
+.poet-game h3,
+.poet-game p {
+  margin: 2px;
+  font-size: 2.4rem;
+}
+.btn {
+  font-size: 1.1rem;
+  border-radius: 16px;
+  margin: 3px;
+  width: 8rem;
+  height: 4rem;
+}
+#reset-btn {
+  background-color: #e1bd00;
+}
+#submit-btn {
+  background-color: #105dd0;
+}
+.languages-used {
+  text-align: center;
+}
+.languages,
+.languages-learnt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+  border-radius: 16px;
+  width: 6rem;
+  height: 3rem;
+  margin: 3px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.languages-learnt {
+  background-color: #0500ff;
+}
+ul {
+  list-style-type: "*";
+}
+li {
+  font-size: 1.8rem;
+}
+
+.career-highlights {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.jobs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.jobs h3,
+.education h3,
+span {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.jobs p,
+.education p {
+  margin: 2px;
+  font-size: 1.4rem;
+}
+
+.education {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  margin: 2px;
+  font-size: 1.8rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+footer {
+  text-align: center;
+}

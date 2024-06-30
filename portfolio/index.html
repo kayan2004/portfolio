@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22256%22 height=%22256%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2250%22 fill=%22%230058ff%22></rect><path fill=%22%23fff%22 d=%22M72.15 21.33L72.15 21.33Q74.49 22.50 74.90 25.02Q75.30 27.54 73.59 29.61L73.59 29.61Q72.42 31.23 70.58 31.41Q68.73 31.59 66.84 30.69L66.84 30.69Q64.68 29.70 62.30 29.16Q59.91 28.62 57.30 28.62L57.30 28.62Q52.44 28.62 48.62 30.15Q44.79 31.68 42.09 34.52Q39.39 37.35 38.00 41.22Q36.60 45.09 36.60 49.77L36.60 49.77Q36.60 55.26 38.18 59.31Q39.75 63.36 42.54 66.06Q45.33 68.76 49.11 70.07Q52.89 71.37 57.30 71.37L57.30 71.37Q59.73 71.37 62.16 70.92Q64.59 70.47 66.84 69.30L66.84 69.30Q68.73 68.40 70.58 68.67Q72.42 68.94 73.68 70.56L73.68 70.56Q75.48 72.81 74.99 75.20Q74.49 77.58 72.24 78.66L72.24 78.66Q69.90 79.83 67.43 80.60Q64.95 81.36 62.43 81.77Q59.91 82.17 57.30 82.17L57.30 82.17Q50.82 82.17 45.02 80.10Q39.21 78.03 34.67 73.98Q30.12 69.93 27.51 63.86Q24.90 57.78 24.90 49.77L24.90 49.77Q24.90 42.84 27.29 36.99Q29.67 31.14 34.04 26.87Q38.40 22.59 44.34 20.21Q50.28 17.82 57.30 17.82L57.30 17.82Q61.26 17.82 65.04 18.72Q68.82 19.62 72.15 21.33Z%22></path></svg>"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="“Pragma”" content="”no-cache”" />
+    <meta http-equiv="“Expires”" content="”-1″" />
+    <meta http-equiv="“CACHE-CONTROL”" content="”NO-CACHE”" />
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="css/master.css" />
+
+    <title>Portfolio Project</title>
+  </head>
+
+  <body>
+    <header>
+      <img
+        src="images/man-looking-at-view-while-standing-at-beach-JRFF05042.jpg"
+        alt="man looking at the beach"
+      />
+      <h1>Kayan Abdelbaki</h1>
+      <h2>software engineer, Machine Learning specialist</h2>
+      <p>
+        I am a software engineer from Lebanon. I live in Beirut, Lebanon. During
+        my school years, I did an internship in a famous company called Murex.
+        And now, I have been spending my time working on some projects to boost
+        my chance of employment.
+      </p>
+    </header>
+    <main>
+      <section>
+        <h2>Portfolio</h2>
+        <div>
+          <article class="image">
+            <div class="image-with-captions">
+              <img
+                src="images/weather.jpg"
+                alt="image of a weather website made in javascript"
+              />
+              <h3>Windy</h3>
+              <p>Weather Forecast written in JavaScript</p>
+              <button id="weather" onclick="">Try it out</button>
+            </div>
+          </article>
+          <article>
+            <div class="image-with-captions">
+              <img
+                id="art-image"
+                src="images/art.png"
+                alt="image of an art done by an artist"
+              />
+              <h3>Art done by me</h3>
+              <p>Drawn and colored by Kayan Abdelbaki</p>
+              <button id="art" onclick="">Take a closer look</button>
+            </div>
+          </article>
+          <article>
+            <div class="image-with-captions">
+              <img
+                src="images/github.png"
+                alt="image showing a github account"
+              />
+              <h3>Github</h3>
+              <p>Check out my other projects on Github!</p>
+              <button id="github">Visit my github</button>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="poet-game">
+        <h2>Take a break and be poetic!</h2>
+
+        <div class="label-input">
+          <label>Enter the name of a plant: </label>
+          <input type="text" id="plant" />
+        </div>
+        <div>
+          <label>Enter the name of an animal: </label>
+          <input type="text" id="animal" />
+        </div>
+
+        <h3 id="game-title">title</h3>
+        <p id="game-result">result</p>
+        <div class="controls">
+          <button class="btn" id="reset-btn" type="reset" onclick="reset()">
+            Reset
+          </button>
+          <button
+            class="btn"
+            id="submit-btn"
+            type="submit"
+            onclick="generatePoem()"
+          >
+            Make/Remake
+          </button>
+        </div>
+        <div class="languages-used">
+          <p>Powered By:</p>
+          <div class="languages">JavaScript</div>
+          <div class="languages">Bootstrap</div>
+        </div>
+      </section>
+      <section class="skills">
+        <h2>Skills Summary</h2>
+        <div>
+          <div class="languages-learnt">HTML</div>
+          <div class="languages-learnt">CSS</div>
+          <div class="languages-learnt">JavaScript</div>
+          <div class="languages-learnt">Node.js</div>
+          <div class="languages-learnt">Kotlin</div>
+          <div class="languages-learnt">Java</div>
+          <div class="languages-learnt">Python</div>
+        </div>
+        <ul class="skills-list">
+          <li class="skills-list-item">Full Stack Web Developer</li>
+          <li class="skills-list-item">Machine Learning Engineer</li>
+          <li class="skills-list-item">Mobile developer for IOS and Android</li>
+        </ul>
+      </section>
+      <section class="career-highlights">
+        <h2>Career Highlights</h2>
+        <article class="jobs">
+          <h3>Murex Lebanon</h3>
+          <p>Software Developer, System Analyst</p>
+          <ul class="job">
+            <li>Develop emergency mobile and web applications</li>
+            <li>Analyse historical data on natural disasters</li>
+          </ul>
+        </article>
+        <article class="jobs">
+          <h3>Azkatech Beirut</h3>
+          <p>Technology Intern</p>
+          <ul class="job">
+            <li>Developed firmware for communication satellites</li>
+            <li>Assured software performance and data integrity</li>
+          </ul>
+        </article>
+      </section>
+      <section class="education">
+        <h2>Education</h2>
+        <h3>University Of Balamand, Koura, Lebanon</h3>
+        <p>Bachelor of Computer Science</p>
+        <a href="https://www.balamand.edu.lb">Visit UOB</a>
+      </section>
+      <section class="content">
+        <h2>Contact</h2>
+        <div class="email">
+          <span>Email:</span>
+          <a href="kayanabdepbaki@gmail.com">kayanabdepbaki@gmail.com</a>
+        </div>
+        <div class="linkedin">
+          <span>LinkedIn:</span>
+          <a href="linkedin.com">Kayan Abdelbaki</a>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p class="copyright-text">© Copyright 2023 Kayan Abdelbaki</p>
+    </footer>
+  </body>
+
+  <!-- Our codes -->
+  <script src="js/main.js"></script>
+</html>
